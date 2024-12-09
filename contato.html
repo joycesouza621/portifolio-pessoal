@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Define o idioma da página como português -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Garante que o layout seja responsivo -->
+    <title>Meus Contatos</title> <!-- Título que aparece na aba do navegador -->
+    <style>
+    body {
+        font-family: Arial, sans-serif; /* Define a fonte padrão */
+        margin: 1;
+        padding: 1;
+        background-color: #bea8a8; /* Cor de fundo da página */
+        color: #333; /* Cor do texto */
+    }
+    
+    
+    /* Estilização do cabeçalho */
+    header {
+        background-color:  #938a8c; /* Cor de fundo do cabeçalho */
+        color: #fff; /* Cor do texto do cabeçalho */
+        padding: 1rem 0; /* Espaçamento interno do cabeçalho */
+        text-align: center; /* Centraliza o conteúdo */
+    }
+    
+    /* Estilização do menu de navegação */
+    nav ul {
+        list-style: none; /* Remove os marcadores da lista */
+        padding: 0; /* Remove o preenchimento da lista */
+        margin: 0; /* Remove as margens da lista */
+        display: flex; /* Cria uma barra horizontal */
+        justify-content: center; /* Centraliza os itens */
+    }
+    
+    nav ul li {
+        margin: 0 15px; /* Define espaçamento entre os links */
+    }
+    
+    nav ul li a {
+        color: #fff; /* Cor do texto dos links */
+        text-decoration: none; /* Remove o sublinhado dos links */
+        font-weight: bold; /* Deixa o texto em negrito */
+    }
+    
+    nav ul li a:hover {
+        text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    }
+    
+    /* Estilização do conteúdo principal */
+    main {
+        padding: 1rem; /* Adiciona espaçamento ao redor do conteúdo */
+    }
+    
+    
+    /* Estilização de seções */
+    .section {
+        margin-bottom: 1rem; /* Espaçamento entre as seções */
+    }
+    
+    h1, h2 {
+        color: #1e1b1b; /* Cor dos títulos */
+    }
+        </style>
+    </head>
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Meus Contatos</h1> <!-- Título principal da página -->
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav>
+        <ul>
+            <!-- Links para as outras páginas do portfólio -->
+            <li><a href="index.html">Início</a></li>
+            <li><a href="file:///C:/Users/Joyce/OneDrive/ProjetoPortif%C3%B3lio/index.html">Sobre Mim</a></li>
+            <li><a href="formacao.html">Formação</a></li>
+            <li><a href="porti.html">Portfólio</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <h2>Entre em Contato Comigo</h2> <!-- Subtítulo da seção -->
+
+        <!-- Informações de contato -->
+        <section>
+            <h3>E-mail</h3> <!-- Subtítulo -->
+            <p>Você pode me enviar um e-mail para:</p>
+            <p>joycesouza074@gmail.com</p>
+
+            <h3>Telefone</h3>
+            <p>Entre em contato por telefone ou WhatsApp:</p>
+            <p>tel:24 999971274</p>
+
+            <h3>Redes Sociais</h3>
+            <p>Entre em contato pelas redes sociais:</p>
+            <ul>
+                <!-- Lista de redes sociais -->
+                <li><a href="https://github.com/seuperfil" target="_blank">GitHub</a></li> <!-- Link para o GitHub -->
+                <li><a href="https://www.instagram.com/joycesouzaa_04/profilecard/?igsh=bWZ1dWc4NHRjanN1" target="_blank">Instagram</a></li> <!-- Link para o Instagram -->
+            </ul>
+
+            <h3>Endereço</h3>
+            <p>Se precisar enviar algo ou marcar um encontro presencial:</p>
+            <p>Rua Rio Claro, 123 - Angra dos Reis, RJ, Brasil</p>
+        </section>
+
+        <!-- Formulário de contato (opcional) -->
+        <section>
+            <h3>Formulário de Contato</h3>
+            <p>Ou preencha o formulário abaixo para me enviar uma mensagem diretamente:</p>
+
+            <form action="#" method="POST"> <!-- Formulário com envio fictício -->
+                <!-- Campo para nome -->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <br><br> <!-- Separador visual -->
+
+                <!-- Campo para e-mail -->
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                <br><br> <!-- Separador visual -->
+
+                <!-- Campo para mensagem -->
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+                <br><br> <!-- Separador visual -->
+
+                <!-- Botão de envio -->
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 - Meu Portfólio Pessoal</p> <!-- Texto de copyright -->
+        <p>Desenvolvido por Joyce Souza</p>
+    </footer>
+</body>
+</html>
